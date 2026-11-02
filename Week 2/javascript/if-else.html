@@ -1,0 +1,220 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Members</title>
+</head>
+
+<body>
+
+<script>
+
+// let number1, number2;
+// number1 = Number(Number(prompt("Enter a  number:")));
+// number2 = Number (Number(prompt("Enter a second number:")));
+
+// if (number1 > number2) {
+//    console.log(`${number1} is bigger than ${number2}`);
+// }else if (number1 === number2) {
+//     console.log(`${number2} is equal to ${number1}`);
+// }else {
+//     console.log(`${number2} is bigger than ${number1}`);
+// }
+
+
+// let day = Number(prompt("Enter a day (1-7):"));
+
+//     switch (day) {
+//         case 1:
+//             console.log("Monday");
+//             break;
+
+//         case 2:
+//             console.log("Tuesday");
+//             break;
+
+//         case 3:
+//             console.log("Wednesday");
+//             break;
+
+//         case 4:
+//             console.log("Thursday");
+//             break;
+
+//         case 5:
+//             console.log("Friday");
+//             break;
+
+//         case 6:
+//         case 7:
+//             console.log("Weekend");
+//             break;
+
+//         default:
+//             console.log("Invalid day");
+//             break;
+//     }
+
+
+// let grade = String(prompt("Enter your grade:")).toUpperCase();
+
+// switch (grade) {
+//     case "A":
+//         console.log("Excellent!");
+//         break;
+
+//     case "B":
+//         console.log("Good job!");
+//         break;
+
+//     case "C":
+//         console.log("You Passed!");
+//         break;
+
+//     default:
+//         console.log("Keep trying!");
+//         break;
+// }
+
+
+// let myArray = [4, 5, 6, 10, 12];
+// let total = 0;
+
+// for (let i = 0; i < myArray.length; i++) {
+//     total += myArray[i];
+// }
+// console.log(total);
+
+
+// let number = 0;
+// let total = 0;
+
+// while (number < 8){
+//     number = Math.floor(Math.random() * 10 + 1);
+//     console.log(number);
+//     total += number;
+// }
+// console.log("The sum of number < 8 is " + total);
+
+
+// let number;
+// let total = 0;
+
+// do {
+//     number = Math.floor(Math.random() * 10 + 1);
+//     console.log(number);
+//     total += number;
+// } 
+// while (number < 8);
+
+// console.log("The sum of number is " + total);
+
+
+// let number1 = 3;
+// let number2 = 5;
+
+// console.log(number1 === number2);
+// console.log(number1 !== number2);
+// console.log(number1 > number2);
+// console.log(number1 <= number2);
+// console.log(number1 >= number2);
+
+
+// let num = 3;
+
+// if (num > 0 && num < 10) {
+//     console.log("Number is above zero but below 10.");
+// } else {
+//     console.log("Number is not in the range.");
+// }
+
+// if (num === 3 || num === 7) {
+//     console.log("Number is either 3 or 7.");
+// } else {
+//     console.log("Number doesn't match with any target value.");
+// }
+
+ 
+// let age = Number(prompt("Enter your age: "));
+
+// // Age categories:
+// // 0-12: Child
+// // 13-19: Teenager
+// // 20-64: Adult
+// // 65+: Senior
+// // Invalid: Less than 0
+
+// if (age >= 0 && age <= 12) {
+//     console.log("Child");
+// } else if (age >= 13 && age <= 19) {
+//     console.log("Teenager");
+// } else if (age >= 20 && age <= 64) {
+//     console.log("Adult");
+// } else if (age >= 65) {
+//     console.log("Senior");
+// } else {
+//     console.log("Invalid age");
+// }
+
+
+// function printName(myName){
+//     console.log("my name is " + myName);
+// }
+
+// printName("Jacky");
+
+
+function addition(num1, num2){
+    let result = num1 + num2;
+    return result;
+}
+
+let additionalResult = addition(5, 9);
+console.log("The addition result is " + additionalResult);
+
+
+// function say(name,age){
+//     return (`My name is ${name}. This year I'm turning ${age}`);
+// }
+// console.log(say("GAIA", 20));
+
+
+// function say(name,age = 0){
+//     return (`My name is ${name}. This year I'm turning ${age}`);
+// }
+// console.log(say("GAIA"));
+
+
+// Function declaration
+// function addition(num1, num2){
+//     let result = num1 + num2;
+//     return result;
+// }
+
+// let additionalResult = addition(5, 9);
+// console.log("The addition result is " + additionalResult);
+
+
+// Arrow function
+
+let greet = () => "Good Morning";
+let message = greet();
+console.log(message);
+
+
+let addition = (num1, num2) => num1 + num2;
+let calcResult = addition(5, 6);
+console.log(calcResult);
+
+
+let num = 12;
+let checkEven = (num % 2 === 0) ?
+    () => console.log("Even") :
+    () => console.log("odd");
+
+checkEven();
+
+</script>
+
+</body>
+</html>
